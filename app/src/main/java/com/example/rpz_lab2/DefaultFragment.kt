@@ -71,7 +71,7 @@ fun DefaultFragment(
         )
 
         //радіо-батони
-        val radioOptions = listOf("+", "-", "*", "/")
+        val radioOptions = listOf("+", "-", "x", "/")
         Row(modifier = Modifier
             .align(Alignment.CenterHorizontally)
             .selectableGroup()){
